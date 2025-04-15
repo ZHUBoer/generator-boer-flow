@@ -11,7 +11,7 @@ module.exports = {
             "jsx": true
         }
     },
-    "extends": ["eslint:recommended", "ivweb"],
+    "extends": ["eslint:recommended", "boer"],
     "globals": {
         "__inline": true,
         "IS_SERVER": true,
