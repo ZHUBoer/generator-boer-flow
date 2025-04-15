@@ -1,6 +1,6 @@
 # generator-boer-flow
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+[![NPM version][npm-image]][npm-url]
 >
 > boer-flow
 
@@ -32,7 +32,3 @@ yo boer-flow
 
 [npm-image]: https://badge.fury.io/js/generator-boer-flow.svg
 [npm-url]: https://npmjs.org/package/generator-boer-flow
-[travis-image]: https://travis-ci.com/zhuboer/generator-boer-flow.svg?branch=master
-[travis-url]: https://travis-ci.com/zhuboer/generator-boer-flow
-[daviddm-image]: https://david-dm.org/zhuboer/generator-boer-flow.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/zhuboer/generator-boer-flow
