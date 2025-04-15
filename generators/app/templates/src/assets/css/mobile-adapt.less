@@ -1,0 +1,42 @@
+ // 基准值设为设计稿宽度/10（默认设计稿750px）
+ @base-design-width: 750;
+ @base-font-size: 100px;
+
+ html {
+     font-size: @base-font-size;
+     // 防止字体大小被系统设置影响
+     -webkit-text-size-adjust: 100%;
+     text-size-adjust: 100%;
+ }
+
+ // 媒体查询适配不同屏幕
+ @media screen and (max-width: 360px) {
+     html {
+         font-size: 50px;
+     }
+ }
+
+ @media screen and (min-width: 361px) and (max-width: 414px) {
+     html {
+         font-size: 55px;
+     }
+ }
+
+ // 平板适配
+ @media screen and (min-width: 415px) and (max-width: 768px) {
+     html {
+         font-size: 60px;
+     }
+ }
+
+ // PC端保持固定
+ @media screen and (min-width: 769px) {
+     html {
+         font-size: 62.5%; // 1rem = 10px
+     }
+
+     body {
+         max-width: 768px; // 限制最大宽度
+         margin: 0 auto;
+     }
+ }
