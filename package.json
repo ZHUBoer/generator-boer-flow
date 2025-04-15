@@ -13,8 +13,10 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "",
-    "yeoman-generator"
+    "react",
+    "yeoman-generator",
+    "devkit",
+    "boer"
   ],
   "dependencies": {
     "yeoman-generator": "^3.1.1",
