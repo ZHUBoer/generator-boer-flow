@@ -15,7 +15,6 @@ module.exports = class extends Generator {
    * Print welcome message
    */
   initializing() {
-    this.log(yosay('Feflow脚手架示例'));
     this.log(chalk.magenta(`尊贵的开发者，欢迎您` + '\n' + '这是boer的项目脚手架' + '\n'));
   }
 
