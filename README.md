@@ -28,7 +28,7 @@ yo boer-flow
 
 ## License
 
- © [clivezhu]()
+ © [clivezhu](https://github.com/ZHUBoer)
 
 [npm-image]: https://badge.fury.io/js/generator-boer-flow.svg
 [npm-url]: https://npmjs.org/package/generator-boer-flow
